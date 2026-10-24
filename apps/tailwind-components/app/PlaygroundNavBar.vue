@@ -93,6 +93,17 @@
         <div class="px-1">
           <input
             class="hover:cursor-pointer ml-1"
+            id="lumc-theme"
+            type="radio"
+            v-model="theme"
+            value="lumc"
+            name="theme"
+          />
+          <label class="hover:cursor-pointer" for="lumc-theme"> LUMC </label>
+        </div>
+        <div class="px-1">
+          <input
+            class="hover:cursor-pointer ml-1"
             id="hdsu-theme"
             type="radio"
             v-model="theme"

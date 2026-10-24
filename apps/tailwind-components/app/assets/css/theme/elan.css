@@ -1,0 +1,162 @@
+:root[data-theme="elan"] {
+  --color-white: #fff;
+  --color-black: #1f2a3a;
+  --color-lumc-blue: #003c7d;
+  --color-lumc-accent: #4a5bd0;
+  --color-lumc-dark: #354c69;
+  --color-lumc-light: #f4f4f4;
+  --color-lumc-sky: #cde8f1;
+  --color-lumc-text: #393939;
+
+  --color-blue-50: #f4f4f4;
+  --color-blue-100: #e8eef6;
+  --color-blue-200: #cde8f1;
+  --color-blue-300: #4a5bd0;
+  --color-blue-500: #003c7d;
+  --color-blue-700: #002f63;
+  --color-blue-800: #003c7d;
+  --color-blue-900: #002a58;
+
+  --color-gradient1: #003c7d;
+  --color-gradient2: #003c7d;
+
+  --box-shadow-primary: none;
+  --box-shadow-search-input: none;
+  --box-shadow-pagination-gray: none;
+
+  --background-image-sidebar-gradient: linear-gradient(
+    180deg,
+    var(--color-gradient1) 0%,
+    var(--color-gradient1) 86.02%
+  );
+  --background-image-base-gradient: linear-gradient(
+    180deg,
+    var(--color-lumc-light) 0%,
+    var(--color-lumc-light) 133.81%
+  );
+  --background-color-bulk-gradient: linear-gradient(
+    90deg,
+    #003c7d 0%,
+    #003c7d 100%
+  );
+
+  --opacity-background-gradient: 0;
+
+  --text-color-logo-text: var(--color-white);
+  --text-color-logo-text-inverted: var(--color-lumc-blue);
+
+  --background-color-navigation: var(--color-lumc-blue);
+  --background-color-navigation-sticky: var(--color-lumc-blue);
+
+  --background-color-button-primary: var(--color-lumc-accent);
+  --background-color-button-primary-hover: var(--color-lumc-sky);
+  --background-color-button-secondary: var(--color-lumc-dark);
+  --background-color-button-secondary-hover: var(--color-lumc-accent);
+  --background-color-button-tertiary: var(--color-lumc-blue);
+  --background-color-button-tertiary-hover: var(--color-lumc-accent);
+  --background-color-search-results-view-tabs: var(--color-lumc-blue);
+  --background-color-search-filter-group-toggle: var(--color-lumc-blue);
+  --background-color-pagination: var(--color-lumc-blue);
+  --background-color-pagination-hover: var(--color-blue-900);
+  --background-color-footer: var(--color-lumc-blue);
+  --background-color-modal-footer: var(--color-lumc-blue);
+  --background-color-tab-hover: var(--color-lumc-accent);
+  --background-color-tab-active: var(--color-lumc-blue);
+  --background-color-input-checked: var(--color-lumc-accent);
+  --background-color-input-focused: var(--color-lumc-accent);
+  --background-color-form-required: var(--color-lumc-blue);
+  --background-color-form-required-btn-hover: var(--color-lumc-accent);
+
+  --text-color-button-primary: var(--color-white);
+  --text-color-button-primary-hover: var(--color-lumc-blue);
+  --text-color-button-secondary: var(--color-white);
+  --text-color-button-secondary-hover: var(--color-white);
+  --text-color-button-outline: var(--color-lumc-blue);
+  --text-color-button-outline-hover: var(--color-blue-700);
+  --text-color-sub-menu: var(--color-lumc-blue);
+  --text-color-sub-menu-hover: var(--color-lumc-accent);
+  --text-color-title: var(--color-lumc-blue);
+  --text-color-title-contrast-pop: var(--color-lumc-blue);
+  --text-color-search-button: var(--color-lumc-blue);
+  --text-color-search-results-view-tabs: var(--color-lumc-blue);
+  --text-color-search-filter-action: var(--color-lumc-sky);
+  --text-color-search-filter-group-checkbox: var(--color-lumc-sky);
+  --text-color-search-filter-action-inverted: var(--color-lumc-accent);
+  --text-color-search-filter-group-checkbox-inverted: var(--color-lumc-accent);
+  --text-color-tooltip-hover-dark: var(--color-lumc-blue);
+  --text-color-link: var(--color-lumc-blue);
+  --text-color-link-inverted: var(--color-lumc-sky);
+
+  --text-color-title-contrast: var(--color-lumc-text);
+  --text-color-sub-title-contrast: var(--color-lumc-blue);
+  --text-color-form-header: var(--color-lumc-blue);
+  --text-color-input-description: var(--color-lumc-text);
+  --text-color-menu: var(--color-white);
+  --text-color-menu-dynamic: var(--color-white);
+  --background-color-navigation-dynamic: var(--color-lumc-blue);
+  --text-color-breadcrumb: var(--color-lumc-blue);
+  --text-color-breadcrumb-arrow: var(--color-lumc-blue);
+  --text-color-button-tertiary: var(--color-white);
+  --text-color-button-tertiary-hover: var(--color-white);
+  --text-color-button-disabled: var(--color-gray-600);
+  --text-color-button-disabled-hover: var(--color-gray-600);
+  --text-color-button-text: var(--color-lumc-blue);
+  --text-color-button-text-disabled: var(--color-gray-500);
+  --text-color-button-tree-node-toggle: var(--color-lumc-blue);
+  --text-color-button-inline: var(--color-lumc-blue);
+  --text-color-button-inline-disabled: var(--color-gray-500);
+  --text-color-search-button-hover: var(--color-lumc-blue);
+  --text-color-search-results-view-tabs-hover: var(--color-lumc-accent);
+  --text-color-search-filter-title: var(--color-white);
+  --text-color-search-filter-action-mobile: var(--color-lumc-blue);
+  --text-color-search-filter-group-title: var(--color-white);
+  --text-color-search-filter-group-title-mobile: var(--color-black);
+  --text-color-search-filter-group-toggle: var(--color-white);
+  --text-color-search-filter-title-inverted: var(--color-black);
+  --text-color-search-filter-group-title-inverted: var(--color-black);
+  --text-color-search-filter-group-toggle-inverted: var(--color-black);
+  --text-color-tooltip-hover-light: var(--color-white);
+  --text-color-pagination: var(--color-white);
+  --text-color-pagination-inverted: var(--color-gray-500);
+  --text-color-pagination-input: var(--color-lumc-blue);
+  --text-color-pagination-hover: var(--color-white);
+  --text-color-pagination-button: var(--color-white);
+  --text-color-pagination-button-hover: var(--color-lumc-blue);
+  --text-color-table-column-header: var(--color-gray-600);
+  --text-color-label-available: var(--color-white);
+  --text-color-favorite: var(--color-lumc-blue);
+  --text-color-favorite-hover: var(--color-lumc-accent);
+  --text-color-invalid: var(--color-red-700);
+  --text-color-valid: var(--color-green-900);
+  --text-color-disabled: var(--color-gray-500);
+  --text-color-required: var(--color-gray-600);
+
+  --border-color-button-primary: var(--color-lumc-accent);
+  --border-color-button-primary-hover: var(--color-lumc-sky);
+  --border-color-button-secondary: var(--color-lumc-dark);
+  --border-color-button-secondary-hover: var(--color-lumc-accent);
+  --border-color-button-tertiary: var(--color-lumc-blue);
+  --border-color-button-tertiary-hover: var(--color-lumc-accent);
+  --border-color-button-outline: var(--color-lumc-blue);
+  --border-color-button-outline-hover: var(--color-blue-700);
+  --border-color-menu-active: var(--color-lumc-accent);
+  --border-color-form-required: var(--color-lumc-accent);
+  --border-color-footer: var(--background-color-footer);
+
+  --border-radius-alt: var(--radius-alt);
+
+  --border-width-theme: 0px;
+}
+
+/* Dark blue surfaces keep light text while the page itself is light. */
+:root[data-theme="elan"] :is(.surface-inverted, .bg-footer, .bg-sidebar-gradient, .bg-navigation-sticky) {
+  --text-color-title: var(--color-white);
+  --text-color-link-inverted: var(--color-lumc-sky);
+  --text-color-button-text: var(--color-white);
+  --text-color-button-text-disabled: var(--color-blue-200);
+  --text-color-button-inline: var(--color-white);
+  --text-color-button-inline-disabled: var(--color-blue-200);
+  --text-color-button-tree-node-toggle: var(--color-white);
+  --text-color-favorite: var(--color-white);
+  --text-color-disabled: var(--color-blue-200);
+}
