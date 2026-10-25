@@ -149,7 +149,7 @@
 }
 
 /* Dark blue surfaces keep light text while the page itself is light. */
-:root[data-theme="elan"] :is(.surface-inverted, .bg-footer, .bg-sidebar-gradient, .bg-navigation-sticky) {
+:root[data-theme="elan"] :is(.bg-footer, .bg-sidebar-gradient, .bg-navigation-sticky) {
   --text-color-title: var(--color-white);
   --text-color-link-inverted: var(--color-lumc-sky);
   --text-color-button-text: var(--color-white);
