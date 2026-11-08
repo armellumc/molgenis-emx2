@@ -39,6 +39,11 @@ export default defineNuxtConfig({
       ignore: ["/_tailwind/"],
     },
   },
+  vite: {
+    server: {
+      allowedHosts: ["res-pheg-pht02.researchlumc.nl"],
+    },
+  },
   pinia: {
     storesDirs: ["./app/stores/**"],
   },

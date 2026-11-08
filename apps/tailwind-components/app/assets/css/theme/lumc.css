@@ -148,6 +148,15 @@
   --border-width-theme: 0px;
 }
 
+/* The catalogue header only gets a background from xl up; below that the white menu text sits on the light page. */
+:root[data-theme="lumc"] header[class*="xl:bg-navigation"] {
+  background-color: var(--background-color-navigation-dynamic);
+}
+
+:root[data-theme="lumc"] nav[aria-label="breadcrumb"] > ol.text-menu {
+  color: var(--color-lumc-blue);
+}
+
 /* Dark blue surfaces keep light text while the page itself is light. */
 :root[data-theme="lumc"] :is(.bg-footer, .bg-sidebar-gradient, .bg-navigation-sticky) {
   --text-color-title: var(--color-white);
